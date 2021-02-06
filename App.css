@@ -1,0 +1,289 @@
+
+.portal {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: grid;
+}
+
+.portal .logOutButton{
+  background: #ffffff;
+  
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portal .logOutButton h2 {
+  color:blue;
+}
+
+
+
+.portal .apptButton{
+  background: #ffffff;
+  
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portal .apptButton h2{
+  color: blue;
+}
+
+.portal .chartButton{
+  background: #ffffff;
+
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.portal .chartButton h2{
+  color: blue;
+}
+
+
+.portal .payButton{
+  background: #ffffff;
+
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.portal .payButton h2{
+  align-items: center;
+  color: blue;
+}
+
+.makeAppt{
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: grid;
+}
+
+.sign {
+  background: #ffffff;
+  width: 90%;
+  height: fit-content;
+  padding: 10px 20px;
+  margin: auto;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nursePortal {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: grid;
+}
+
+.nursePortal .logOutButton{
+  background: #ffffff;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nursePortal .logOutButton h2 {
+  color:blue;
+}
+
+
+
+.nursePortal .treatmentButton{
+  background: #ffffff;
+  width: 20%;
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nursePortal .treatmentButton h2{
+  color: blue;
+}
+
+.doctorPortal {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: grid;
+}
+
+.doctorPortal .logOutButton{
+  background: #ffffff;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doctorPortal .logOutButton h2 {
+  color:blue;
+}
+
+
+
+.doctorPortal .treatmentButton{
+  background: #ffffff;
+  width: 20%;
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctorPortal .treatmentButton h2{
+  color: blue;
+}
+
+.ceoPortal {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: grid;
+}
+
+.ceoPortal .logOutButton{
+  background: #ffffff;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ceoPortal .logOutButton h2 {
+  color:blue;
+}
+
+
+
+.ceoPortal .reportButton{
+  background: #ffffff;
+  width: 20%;
+  height: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ceoPortal .reportButton h2{
+  color: blue;
+  font-size: medium;
+}
+
+.cancel {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  display: flex;
+}
+
+.cancel .cancelBox{
+  background: #ffffff;
+  
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cancel .cancelBox h2 {
+  color:blue;
+}
+
+
+.appt .makeAppt{
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(217, 218, 228) 0%,
+    rgba(137, 160, 235, 0.9) 59%,
+    rgba(19, 52, 212, 0.9) 100%
+  );
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
